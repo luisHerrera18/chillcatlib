@@ -1,6 +1,11 @@
 {
     "extends": "@tsconfig/recommended/tsconfig.json",
     "compilerOptions": {
-        "jsx": "preserve"
+        "jsx": "preserve", /* sets the javascript language version */
+        "target": "ES2016",
+        "module": "commonjs",
+        "skipLibCheck": true, /* skip type checking all .d.ts files */
+        "noUncheckedIndexedAccess": true,
+        "noEmit": true
     }
 }
