@@ -4,7 +4,7 @@ type ButtonProps = {
 }
 const Button = (props: ButtonProps) => {
   return <button>
-    {props.label || "button"}
+    {props.label || "Button"}
   </button>
 }
 
