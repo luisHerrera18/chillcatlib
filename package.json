@@ -2,26 +2,27 @@
   "name": "@chillcatlib/ui",
   "version": "0.0.1",
   "description": "UI library for chillcat solutions projects",
-  "main": "src/index.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "files": [
-    "src/**/*"
+    "dist"
   ],
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chillcatsolutions/chillcatlib.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "author": "chillCatSolutions",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chillcatsolutions/chillcatlib/issues"
-  },
-  "homepage": "https://github.com/chillcatsolutions/chillcatlib#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
     "@tsconfig/recommended": "^1.0.3",
-    "@types/react": "^18.2.37"
+    "@types/react": "^18.2.37",
+    "rollup": "^4.5.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2"
   },
   "dependencies": {
     "react": "^17.0.2",
