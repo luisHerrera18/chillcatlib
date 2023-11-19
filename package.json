@@ -1,0 +1,27 @@
+{
+  "name": "@chillcatlib/ui",
+  "version": "1.0.0",
+  "description": "UI library for chillcat solutions projects",
+  "main": "src/index.ts",
+  "files": ["src/**/*"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chillcatsolutions/chillcatlib.git"
+  },
+  "author": "chillCatSolutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chillcatsolutions/chillcatlib/issues"
+  },
+  "homepage": "https://github.com/chillcatsolutions/chillcatlib#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.3"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.4.2"
+  }
+}

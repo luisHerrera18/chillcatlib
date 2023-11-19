@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# build
+build/
+dist/
+
+# Local env files
+.env
+
+# Carpeta de caché de Storybook
+.storybook-static/
+
+# Archivos temporales
+*.tmp
+
+# Otros archivos generados
+.DS_Store
+Thumbs.db
