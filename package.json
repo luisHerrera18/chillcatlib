@@ -1,5 +1,5 @@
 {
-  "name": "@chillcatlib/ui",
+  "name": "@chillcatsolutions/chillcatlib",
   "version": "0.0.1",
   "description": "UI library for chillcat solutions projects",
   "main": "dist/cjs/index.js",
