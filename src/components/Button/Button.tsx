@@ -1,6 +1,6 @@
 import React from "react"; 
 type ButtonProps = {
-  label: string;
+  label?: string;
 }
 const Button = (props: ButtonProps) => {
   return <button>

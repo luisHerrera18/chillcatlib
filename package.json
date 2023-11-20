@@ -10,7 +10,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup -c --bundleConfigAsCjs"
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "build-storybook": "build-storybook",
+    "start": "start-storybook -p 6006"
   },
   "author": "chillcatsolutions",
   "license": "ISC",
@@ -22,7 +24,10 @@
     "@types/react": "^18.2.37",
     "rollup": "^4.5.0",
     "rollup-plugin-dts": "^6.1.0",
-    "tslib": "^2.6.2"
+    "tslib": "^2.6.2",
+    "storybook": "6.1.21",
+    "@storybook/react": "6.1.21",
+    "@storybook/addon-docs": "6.1.21"
   },
   "dependencies": {
     "react": "^17.0.2",
