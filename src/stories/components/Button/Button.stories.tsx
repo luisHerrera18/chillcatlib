@@ -8,6 +8,6 @@ export default {
   component: Button,
 } as Meta;
 
-export const DefaultButton = () => <Button label='test' />;
-export const NoLabel = () => <Button />;
-export const LongLabel = () => <Button label="testestestsetstsetestestestestest" />;
+export const DefaultButton = () => <Button label='default' />;
+export const Light = () => <Button label="light" mode="light"/>;
+export const Dark = () => <Button label="dark" mode="dark"/>;

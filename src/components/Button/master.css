@@ -1,0 +1,23 @@
+.custom-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3em;
+  border-radius: 5px;
+}
+.custom-btn.default {
+  background-color: #3498db;
+  color: #fff;
+}
+.custom-btn.light {
+  background-color: #ecf0f1;
+  color: #333;
+}
+.custom-btn.dark {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+/*# sourceMappingURL=master.css.map */
